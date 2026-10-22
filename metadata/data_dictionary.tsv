@@ -1,0 +1,21 @@
+column_name	description	example_or_allowed_values
+sample_id	Unique sample identifier	S1, S2, ...
+cultivar	Blueberry cultivar	Blueray; Duke; Patriot
+fertilisation	Fertilization regime	Mineral; Organic
+pgpr	PGPR treatment	No PGPR; PGPR
+treatment	Combined fertilization-PGPR treatment	CTRLMin; PGPRMin; CTROrg; PGPROrg
+block	Experimental block	1; 2; 3; 4
+pH	Soil pH	Numeric
+CE	Electrical conductivity	Numeric
+NH4	Ammonium	Numeric
+NO3	Nitrate	Numeric
+P	Phosphorus	Numeric
+K	Potassium	Numeric
+Ca	Calcium	Numeric
+Mg	Magnesium	Numeric
+Fe	Iron	Numeric
+Cu	Copper	Numeric
+Mn	Manganese	Numeric
+Zn	Zinc	Numeric
+Mo	Molybdenum	Numeric
+Al	Aluminium	Numeric
