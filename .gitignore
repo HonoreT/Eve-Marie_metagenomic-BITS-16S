@@ -1,0 +1,47 @@
+# Raw sequencing data
+01_raw_data/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# QIIME 2 artifacts / visualizations
+*.qza
+*.qzv
+
+# Temporary and working directories
+04_work_tmp/
+tmp_qiime/
+tmp/
+temp/
+
+# PICRUSt2 / large intermediate outputs
+*.biom
+*.biom.gz
+*.hdf5
+*.h5
+
+# R / Python local artifacts
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Scheduler / logs that can be regenerated
+slurm-*.out
+*.err
+*.out
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Credentials / secrets
+.env
+*.pem
+*.key
+credentials*
+token*
