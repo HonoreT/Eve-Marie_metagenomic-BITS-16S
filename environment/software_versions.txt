@@ -1,0 +1,34 @@
+Marie-Eve metagenomic BITS/16S project
+=======================================
+
+Confirmed / working versions
+----------------------------
+
+QIIME 2: 2026.4
+q2cli: 2026.4.0
+PICRUSt2: 2.6.3
+Apptainer: 1.3.5
+SILVA: 138.2
+UNITE: 2025-02-19
+FUNGuild commit: c2d1529394d77494d6c50e586df1e7b5b0a4e4df
+
+HPC / project context
+---------------------
+
+Cluster: Valeria / Alliance Canada
+Project root:
+  /project/166726054/Marie-Eve_Analysis/
+
+PICRUSt2 resources:
+  CPUs: 8
+  memory request used in workflow: 32G
+
+Items still to document precisely
+---------------------------------
+- exact R version
+- exact Python version
+- exact R package versions
+- exact PERMANOVA permutation count
+- exact UNITE classifier algorithm
+- full final EMP DADA2 command
+- random seeds, where applicable
